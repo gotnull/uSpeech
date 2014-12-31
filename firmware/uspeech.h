@@ -89,7 +89,7 @@ public:
     int* tointptr(); /*!< Returns the vector from the accumulators as an integer pointer */
     #if ARDUINO_ENVIRONMENT > 0 
     void debugPrint(); /*!< Outputs the datain the accumulator vector. Only enabled for arduino.*/
-	void distance(syllable s);
+	//void distance(syllable s);
 	
     #endif
     #ifdef PICKLE

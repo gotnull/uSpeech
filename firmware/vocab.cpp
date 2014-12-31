@@ -194,5 +194,5 @@ int* syllable::tointptr(){
     	matrix[19] = plosiveCount;
 	return matrix;
 }
-void syllable::distance(syllable s){
-}
+
+//void syllable::distance(syllable s){}
