@@ -9,14 +9,11 @@
 #ifndef uspeech_h
 #define uspeech_h
 
-#define ARDUINO_ENVIRONMENT 1
-#if ARDUINO_ENVIRONMENT > 0
-    #include "Arduino.h"
-#endif
+#include "application.h"
 #ifdef PICKLE
 #include <string.h>
 #endif
-#include <math.h>
+#include "math.h"
 #include <stdlib.h>
 #define SILENCE 2000
 #define F_DETECTION 3
