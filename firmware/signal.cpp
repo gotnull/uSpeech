@@ -91,7 +91,7 @@ int signal::snr(int power){
 	uint8_t i=0,j=0;
 	int mean =power/32;
 	while(i <32){
-		j+=sq(arr[i]-mean);
+		j+=sqrt(arr[i]-mean);
 		i++;
 	}
 	return sqrt(j/mean)/power;
