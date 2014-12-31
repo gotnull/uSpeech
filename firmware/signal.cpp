@@ -1,5 +1,5 @@
 #include "uspeech.h"
-
+#include "math.h"
 
 /**
  * Constructor 
