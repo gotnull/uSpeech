@@ -1,0 +1,7 @@
+{
+    "name": "uspeech",
+    "version": "0.0.1",
+    "author": "Arjo Chakravarty",
+    "license": "Copyright (C) 2012-2014 Arjo Chakravarty",
+    "description": "uSpeech library for SparkCore"
+}
